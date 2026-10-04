@@ -1,0 +1,30 @@
+$ git log --oneline --graph --all
+* b88ee19 Añade sombra al botón principal y cierra la issue #3
+*   6d91c66 Resuelve el conflicto de cover.css
+|\  
+| * b09abb7 Cambia el color del botón principal a verde oscuro
+* | eb72a5c Cambia el color del botón principal a morado
+|/  
+*   52e3dda Merge pull request #2 from raluidotest/custom-text
+|\  
+| * 7f0b4e3 Afina el eslogan de la portada
+| * 69f6a2d Ajusta el texto del pie de página
+| * 4f07fd9 Personaliza la portada para la startup
+|/  
+* 1b87a9e Añade documentación con MkDocs e integración continua
+* 5843b78 Añade la página de la startup y su hoja de estilos
+* dafdfc3 Initial commit
+
+$ git remote -v
+origin	https://github.com/Raluido/git-work.git (fetch)
+origin	https://github.com/Raluido/git-work.git (push)
+upstream	https://token@github.com/raluidotest/git-work.git (fetch)
+upstream	https://token@github.com/raluidotest/git-work.git (push)
+
+$ git tag
+0.1.0
+
+$ git log --format="%an <%ae>" | sort -u
+Raluido Test <raluido.test@gmail.com>
+Raúl Luis <raluido@gmail.com>
+Raúl Luis Domínguez <76270156+Raluido@users.noreply.github.com>
